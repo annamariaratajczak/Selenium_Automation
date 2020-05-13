@@ -84,36 +84,12 @@ public class IntersportMoreItemCartComparePrices {
 			
 		}
 		
-		
 		System.out.println(sum);
 		
 		WebElement compTotals = driver.findElement(By.cssSelector(".prices--articles-amount"));
 		assertEquals(sum, parsePrice(compTotals.getText()),0);
 		
-	
 
-		// WebElement price1 =
-		// driver.findElements(By.cssSelector(".item--price")).get(0);
-		// WebElement price2 =
-		// driver.findElements(By.cssSelector(".item--price")).get(1);
-
-		// WebElement total =
-		// driver.findElement(By.cssSelector(".prices--articles-amount"));
-
-		// (price1.getText().replace(" €*", "") + (price2.getText().replace(" €*", ""));
-
-		// System.out.println();
-
-		// findAndClick(".action--remove");
-
-		// waitFor(".cart--empty-text");
-		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".cart--empty-text")));
-
-		// WebElement cartIsEmpty =
-		// driver.findElement(By.cssSelector(".cart--empty-text"));
-		// assertEquals("Ihr Warenkorb ist leer", cartIsEmpty.getText());
-
-		Thread.sleep(10000L);
 	}
 
 	float parsePrice(String price) {
