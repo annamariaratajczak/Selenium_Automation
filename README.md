@@ -1,7 +1,11 @@
-# Selenium Automation Project
-These are my basic automation tests.
+# Selenium Automation 
+Some of my tests.
 
 ## Test execution
-### Intersport Registration Form
+
+### Intersport Registration
 ![](test_executions/IntersportRegistration.gif)
+
+### Intersport Login
+![](test_executions/IntersportLogin.gif)
  
