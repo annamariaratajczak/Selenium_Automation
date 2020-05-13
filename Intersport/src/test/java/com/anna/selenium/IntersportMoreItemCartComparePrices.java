@@ -23,13 +23,13 @@ public class IntersportMoreItemCartComparePrices {
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
-		wait = new WebDriverWait(driver, 5);
+		wait = new WebDriverWait(driver, 15);
 		driver.manage().window().maximize();
 		driver.get("https://www.intersport.de/");
 	}
 
 	private WebElement findCookie() {
-		WebDriverWait wait = new WebDriverWait(driver, 5);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 		WebElement c = driver.findElement(By.cssSelector(".js--cookie-banner-accept"));
 		wait.until(ExpectedConditions.elementToBeClickable(c));
 		return c;

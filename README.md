@@ -3,12 +3,14 @@ Some of my tests.
 
 ## Test execution
 
-### Intersport Registration
+### Intersport registration
 ![](test_executions/IntersportRegistration.gif)
 
-### Intersport Login
+### Intersport login
 ![](test_executions/IntersportLogin.gif)
 
-### Intersport Add/Remove an article from the cart
+### Intersport add/remove an article to/from the cart
 ![](test_executions/IntersportAddItemToCart.gif)
  
+### Intersport add articles to the cart and check total price
+![](test_executions/IntersportMoreItemCartComparePricest.gif)
