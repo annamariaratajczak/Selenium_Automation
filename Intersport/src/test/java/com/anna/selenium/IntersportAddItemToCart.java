@@ -50,6 +50,8 @@ public class IntersportAddItemToCart {
         WebElement article1 = driver.findElements(By.cssSelector(".listing--container a.box-link")).get(0);
 		article1.click();
 		
+		waitFor(".buybox--button-text");
+		
 		findAndClick(".buybox--button-text");
 		
 

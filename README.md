@@ -8,4 +8,7 @@ Some of my tests.
 
 ### Intersport Login
 ![](test_executions/IntersportLogin.gif)
+
+### Intersport Add/Remove an article from the cart
+![](test_executions/IntersportAddItemToCart.gif)
  
