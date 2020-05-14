@@ -1,5 +1,5 @@
 # Selenium Automation 
-Some of my tests.
+Some of my automation tests based on a publicly available website of intersport.de
 
 ## Test execution
 
@@ -13,4 +13,5 @@ Some of my tests.
 ![](test_executions/IntersportAddItemToCart.gif)
  
 ### Intersport add articles to the cart and check total price
-![](test_executions/IntersportMoreItemCartComparePricest.gif)
+![](test_executions/IntersportMoreItemCartComparePrices.gif)
+
